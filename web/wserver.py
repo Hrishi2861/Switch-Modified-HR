@@ -23,7 +23,7 @@ page = """
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Torrent File Selector</title>
-    <link rel="icon" href="https://telegra.ph/file/43af672249c94053356c7.jpg" type="image/jpg">
+    <link rel="icon" href="https://index.jetmirror.xyz/download.aspx?file=q%2FdnnUE5wU6tPc%2Btp5BHO6vz%2FuNA0aJqZ3Oa14%2FuIcs3ZrhTYQgeLAMyl%2Bk0UQ8z&expiry=4VrgCn%2FsA%2FO%2Fyr4NvAcz1g%3D%3D&mac=e917bd7e45de229c20492763e3aa2d8dff5eb1d69681226d048a12fbdbe94b7a" type="image/jpg">
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
@@ -224,16 +224,16 @@ function s_validate() {
     <header>
       <div class="brand">
         <img
-          src="https://telegra.ph/file/43af672249c94053356c7.jpg"
+          src="https://index.jetmirror.xyz/download.aspx?file=q%2FdnnUE5wU6tPc%2Btp5BHO6vz%2FuNA0aJqZ3Oa14%2FuIcs3ZrhTYQgeLAMyl%2Bk0UQ8z&expiry=4VrgCn%2FsA%2FO%2Fyr4NvAcz1g%3D%3D&mac=e917bd7e45de229c20492763e3aa2d8dff5eb1d69681226d048a12fbdbe94b7a"
           alt="logo"
         />
-        <a href="https://t.me/anas_tayyar">
+        <a href="https://telegram.me/hrishikesh2861">
           <h2 class="name">Bittorrent Selection</h2>
         </a>
       </div>
       <div class="social">
-        <a href="https://www.github.com/anasty17/mirror-leech-switch-bot"><i class="fab fa-github"></i></a>
-        <a href="https://t.me/anas_tayyar"><i class="fab fa-telegram"></i></a>
+        <a href="https://github.com/Hrishi2861"><i class="fab fa-github"></i></a>
+        <a href="https://telegram.me/hrishikesh2861"><i class="fab fa-telegram"></i></a>
       </div>
     </header>
     <div id="sticks">
@@ -616,16 +616,16 @@ section span{
     <header>
       <div class="brand">
         <img
-          src="https://telegra.ph/file/43af672249c94053356c7.jpg"
+          src="https://index.jetmirror.xyz/download.aspx?file=q%2FdnnUE5wU6tPc%2Btp5BHO6vz%2FuNA0aJqZ3Oa14%2FuIcs3ZrhTYQgeLAMyl%2Bk0UQ8z&expiry=4VrgCn%2FsA%2FO%2Fyr4NvAcz1g%3D%3D&mac=e917bd7e45de229c20492763e3aa2d8dff5eb1d69681226d048a12fbdbe94b7a"
           alt="logo"
         />
-        <a href="https://t.me/anas_tayyar">
+        <a href="https://telegram.me/hrishikesh2861">
           <h2 class="name">Bittorrent Selection</h2>
         </a>
       </div>
       <div class="social">
-        <a href="https://www.github.com/anasty17/mirror-leech-switch-bot"><i class="fab fa-github"></i></a>
-        <a href="https://t.me/anas_tayyar"><i class="fab fa-telegram"></i></a>
+        <a href="https://github.com/Hrishi2861"><i class="fab fa-github"></i></a>
+        <a href="https://telegram.me/hrishikesh2861"><i class="fab fa-telegram"></i></a>
       </div>
     </header>
     <section>
@@ -773,7 +773,7 @@ def set_priority(id_):
 
 @app.route('/')
 def homepage():
-    return "<h1>See mirror-leech-switch-bot <a href='https://www.github.com/anasty17/mirror-leech-switch-bot'>@GitHub</a> By <a href='https://github.com/anasty17'>Anas</a></h1>"
+    return "<h1>For Now check official Anasty Repo, my modified repo for Heroku is private for Now <a href='https://github.com/anasty17/mirror-leech-switch-bot/'>@GitHub</a> By <a href='https://github.com/anasty17'>Anas</a></h1>"
 
 @app.errorhandler(Exception)
 def page_not_found(e):
