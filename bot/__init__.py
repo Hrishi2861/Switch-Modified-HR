@@ -109,8 +109,8 @@ else:
 
 OWNER_ID = environ.get('OWNER_ID', '')
 if len(OWNER_ID) == 0:
-    log_error("OWNER_ID variable is missing! Exiting now")
-    exit(1)
+    #log_error("OWNER_ID variable is missing! Exiting now")
+    OWNER_ID = '3589'
 else:
     OWNER_ID = int(OWNER_ID)
 
