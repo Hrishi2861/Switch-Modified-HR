@@ -64,8 +64,8 @@ rss_dict = {}
 
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 if len(BOT_TOKEN) == 0:
-    log_error("BOT_TOKEN variable is missing! Exiting now")
-    exit(1)
+    #log_error("BOT_TOKEN variable is missing! Exiting now")
+    BOT_TOKEN = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTM4MiwiaXNfYm90Ijp0cnVlLCJhY3RpdmUiOnRydWUsImlhdCI6MTcwMDgwNjk3OCwiZXhwIjoyMzMxOTU4OTc4fQ.1gvSjwRM6N1TG-dH8F2Oai1JfUNA8XfOVNImFF23Hao'
 
 bot_id = BOT_TOKEN.split('.', 1)[0]
 
