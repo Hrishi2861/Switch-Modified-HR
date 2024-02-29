@@ -61,8 +61,8 @@ if UPSTREAM_REPO is not None:
         srun(["rm", "-rf", ".git"])
 
     update = srun([f"git init -q \
-                     && git config --global user.email e.anastayyar@gmail.com \
-                     && git config --global user.name mltb \
+                     && git config --global user.email omk.xd@telegram.com \
+                     && git config --global user.name omkzz \
                      && git add . \
                      && git commit -sm update -q \
                      && git remote add origin {UPSTREAM_REPO} \
@@ -70,7 +70,10 @@ if UPSTREAM_REPO is not None:
                      && git reset --hard origin/{UPSTREAM_BRANCH} -q"], shell=True)
 
     if update.returncode == 0:
-        log_info('Successfully updated with latest commit from UPSTREAM_REPO')
+    log_info('Successfully updated with latest commit.')
+    log_info(f'Repo in use: {UPSTREAM_REPO}')
+    log_info(f'Branch in use: {UPSTREAM_BRANCH}')
     else:
-        log_error(
-            'Something went wrong while updating, check UPSTREAM_REPO if valid or not!')
+    log_error('Something went wrong while updating.')
+    log_info('Check if entered UPSTREAM_REPO is valid or not!')
+    log_info(f'Entered upstream repo: {UPSTREAM_REPO}')
